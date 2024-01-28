@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/477ab4a732.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="imges/logo.png" type="image/x-icon">
+    <title>Yummy</title>
+</head>
+<body>
+    <section id="loading">
+        <div  class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </section>
+
+    <section id="nav">
+    <div class="side-nav position-fixed d-flex  top-0 bottom-0">
+        <div class="nav-items  text-white bg-black d-flex flex-column justify-content-between">
+            <ul class="list-unstyled nav-links position-relative">
+                <li id="searchLink">Search</li>
+                <li id="categoriesLink">Categories</li>
+                <li id="areasLink">Areas</li>
+                <li id="ingredientsLink">Ingredients</li>
+                <li id="contactLink">Contact Us</li>
+            </ul>
+            <div class="nav-socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p class="copy-right">
+                    Copyright Â© 2019 All Rights <br/>
+                    Reserved.
+                </p>
+            </div>
+        </div>
+        <div class="nav-logo bg-white d-flex flex-column justify-content-between">
+            <img src="imges/logo.png" alt="yummy logo" class="logo">
+            <div class="open-close-icon fs-1 d-flex justify-content-center">
+                <i class="fa-solid fa-bars open-icon "></i>
+                <i class="fa-solid fa-xmark close-icon d-none "></i>
+            </div>
+            <div class="d-flex flex-column  justify-content-between align-items-center">
+                <i class="fa-solid fa-globe mb-1" ></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="home" class=>
+        <div class="meals ">
+            <div class="container">
+                <div class="row gy-4 py-5">
+                
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="search" class="d-none">
+        <div class="container">
+            <div class="py-5">
+
+                <input type="search" class="bg-transparent form-control mb-2 sName" name="name" id="name" placeholder="Search By Name">
+                <input type="search" maxlength="1" class="bg-transparent form-control mb-5 sLetter" name="fLetter" id="fLetter" placeholder="Search By First Letter">
+
+                <div class="row gy-4 py-5">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="text-white ">
+        <div class="container">
+
+            <div class="row py-5">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contactUs" class="d-none">
+        <div class="container w-75 d-flex justify-content-center align-items-center ">
+            <div class="inputs-field d-flex flex-column justify-content-center align-items-center">
+                 <div class="row py-3 g-4 ">
+                    <div class="col-md-6">
+
+                        <input type="text" id="nameInput" placeholder="enter your name" class="form-control">
+                        <div class="alert alert-danger w-100 mt-2 d-none" id="nameAlert">
+                            Special character and numbers not allowed
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="email" id="emailInput" placeholder="enter your email" class="form-control">
+                        <div class="alert alert-danger w-100 mt-2 d-none" id="emailAlert">
+                            Email not valid *example@yyy.zzz
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="text" id="phoneInput" placeholder="enter your phone" class="form-control">
+                        <div class="alert alert-danger w-100 mt-2 d-none" id="phoneAlert">
+                            Enter valid phone number
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" id="ageInput" placeholder="enter your age" class="form-control">
+                        <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            Enter Valid age
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="password" id="passwordInput" placeholder="enter your password" class="form-control">
+                        <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-none">
+                            
+                    Enter valid password *Minimum eight characters, at least one letter and one number:*
+                
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="password" id="repasswordInput" placeholder="Repassword" class="form-control">
+                        <div class="alert alert-danger w-100 mt-2 d-none" id="repasswordAlert">
+                            Enter valid repassword
+                        </div>
+                    </div>
+                </div>
+                <button id="submitBtn" class="btn btn-outline-danger px-2 mt-3" disabled>Submit</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
