@@ -17,6 +17,7 @@ $('#searchLink').click(function (){
     $('#search').removeClass('d-none')
     $('#contactUs').addClass('d-none')
     $('#home').addClass('d-none')
+    $('#details').addClass('d-none')
 })
 
 $('#categoriesLink').click(function (){
@@ -24,6 +25,8 @@ $('#categoriesLink').click(function (){
     $('#contactUs').addClass('d-none')
     $('#home').removeClass('d-none')
     $('#search').addClass('d-none')
+    $('#details').addClass('d-none')
+
 })
 
 $('#areasLink').click(function (){
@@ -31,6 +34,8 @@ let area =new Area()
 $('#contactUs').addClass('d-none')
 $('#home').removeClass('d-none')
 $('#search').addClass('d-none')
+$('#details').addClass('d-none')
+
 })
 
 $('#ingredientsLink').click(function (){
@@ -38,6 +43,8 @@ let ing =new Ingredients()
 $('#contactUs').addClass('d-none')
 $('#home').removeClass('d-none')
 $('#search').addClass('d-none')
+$('#details').addClass('d-none')
+
 
 })
 
@@ -45,6 +52,7 @@ $('#contactLink').click(function (){
     $('#contactUs').removeClass('d-none')
     $('#home').addClass('d-none')
     $('#search').addClass('d-none')
+    $('#details').addClass('d-none')
    let v =new Validation()
 
 })

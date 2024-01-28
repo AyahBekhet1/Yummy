@@ -17,9 +17,9 @@ async getDetails(id){
 
 
 displayDetails (data){
-    document.querySelector('#home').style.display='none'
-    document.querySelector('#search').style.display='none'
-    document.querySelector('#details').style.display='block'
+    $('#home').addClass('d-none')
+    $('#search').addClass('d-none')
+    $('#details').removeClass('d-none')
     
     let ings=''
     let measures=''

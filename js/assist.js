@@ -5,6 +5,7 @@ export class Helper {
     }
 
     async getData (url){
+        $('#loading').fadeOut(1000)
         let apiRes =await fetch(url)
         let res =await apiRes.json();
         return  res;
